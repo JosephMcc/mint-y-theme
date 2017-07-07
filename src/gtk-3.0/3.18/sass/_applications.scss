@@ -888,3 +888,12 @@ SwitchboardCategoryView .view:selected:focus {
 
   .xed-goto-line-box { @extend %search_slider }
 }
+
+EvWindow .content-view .view {
+  background-color: $selected_bg_color;
+  color: $selected_fg_color;
+}
+
+EvWindow .content-view .view:focused {
+  background-color: red;
+}

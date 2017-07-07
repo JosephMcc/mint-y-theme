@@ -3342,6 +3342,13 @@ SwitchboardCategoryView .view:selected:focus {
   border: 0px solid #292929;
   border-top-width: 1px; }
 
+EvWindow .content-view .view {
+  background-color: #8fa876;
+  color: #ffffff; }
+
+EvWindow .content-view .view:focused {
+  background-color: red; }
+
 #panel_window {
   background-color: #292929;
   color: #DADADA;
